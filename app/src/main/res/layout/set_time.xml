@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="500dp"
+        android:text="今天想練習"
+        android:textColor="#000"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textUsername"
+        android:layout_width="125dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="110dp"
+        android:layout_height="80dp">
+
+
+        <EditText
+            android:id="@+id/editAge"
+            android:background="#FFFF93"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="240dp"
+        android:text="分鐘"
+        android:textColor="#000"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/sure"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textUsername"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_background"
+        android:text="確定"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

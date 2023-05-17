@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Strokepatientsvoicerecoveryapp</string>
+
+    <string-array name="option">
+        <item>命名型失語症</item>
+        <item>傳導型失語症</item>
+        <item>跨皮質感覺型失語症</item>
+        <item>威尼克型失語症</item>
+        <item>跨皮質運動型失語症</item>
+        <item>布洛卡失語症</item>
+        <item>跨皮質混合型失語症</item>
+        <item>全失型失語症</item>
+
+    </string-array>
+    <string-array name="option1">
+        <item>簡單</item>
+        <item>中等</item>
+        <item>困難</item>
+    </string-array>
+    <string name="place_holder_time">00:00</string>
+    <string name="reset">重新</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="sure">確定</string>
+    <string name="title_activity_speech">SpeechActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
